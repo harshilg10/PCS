@@ -7,7 +7,7 @@ Pytorch implementation of PCS (Prototypical Cross-domain Self-supervised network
 
 Architecture of Network
 
-![Architecture of Network](Proposed Architecture.png)
+![Architecture of Network](Proposed_architecture.png)
 
 Compared with state-of-the-art methods, PCS improves the mean classification accuracy over different domain pairs on FUDA by **10.5%**, **4.3%**, **9.0%**, and **13.2%** on Office, Office-Home, VisDA-2017, and DomainNet, respectively.
 q
