@@ -1,7 +1,7 @@
-# Link to our paper
-# Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation (PCS)
 
-Pytorch implementation of PCS (Prototypical Cross-domain Self-supervised network) [[link to report](https://drive.google.com/drive/u/1/folders/127bXMlpO5XsZV5IXs2nRCvUijtZ9NsZ1)] [[PDF](https://arxiv.org/pdf/2103.16765.pdf)]
+# Prototypical Cross Domain Self-Supervised Learning for Few-shot Unsupervised Domain Adaptation in Semantic Segmentation
+
+Pytorch implementation of PCS (Prototypical Cross-domain Self-supervised network) [[link to our report](https://drive.google.com/drive/u/1/folders/127bXMlpO5XsZV5IXs2nRCvUijtZ9NsZ1)]
 
 ## Overview
 
@@ -29,22 +29,4 @@ pip install -e .
 CUDA_VISIBLE_DEVICES=0 python pcs/run.py --config config/${DATASET}/${DOMAIN-PAIR}.json
 CUDA_VISIBLE_DEVICES=0,1 python pcs/run.py --config config/office/D-A-1.json
 ```
-
-[2021.06.24] We released all configs for office dataset.
-
-## Citation
-
-```bibtex
-@InProceedings{Yue_2021_Prototypical,
-author = {Yue, Xiangyu and Zheng, Zangwei and Zhang, Shanghang and Gao, Yang and Darrell, Trevor and Keutzer, Kurt and Sangiovanni-Vincentelli, Alberto},
-title = {Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation},
-booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2021}
-}
-```
-
-## Acknowlegdement
-
-This code is built on [[MME](https://github.com/VisionLearningGroup/SSDA_MME)]. We thank the authors for sharing their codes.
 
