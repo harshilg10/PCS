@@ -1,7 +1,7 @@
 
 # Prototypical Cross Domain Self-Supervised Learning for Few-shot Unsupervised Domain Adaptation in Semantic Segmentation
 
-Pytorch implementation of PCS (Prototypical Cross-domain Self-supervised network) [[link to our report](https://drive.google.com/drive/u/1/folders/127bXMlpO5XsZV5IXs2nRCvUijtZ9NsZ1)]
+Pytorch implementation of PCS (Prototypical Cross-domain Self-supervised network) [[link to our report](IVC_final_report.pdf)]
 
 ## Overview
 
